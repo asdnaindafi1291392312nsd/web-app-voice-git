@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Configurar el reconocimiento de voz
         recognition.continuous = false;
         recognition.interimResults = true;
+        // Configurar el idioma de voz
         recognition.lang = 'es-ES';
 
         // Evento al iniciar el reconocimiento de voz
